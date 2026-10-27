@@ -4,9 +4,9 @@ parts_desk.py
 Detroit Diesel 6-71 parts desk: each major component of the engine, the
 manual pages that cover it, and live sources for it found through String.
 
-  - Manual pages and part numbers come from data/catalog.json, exported from
-    an OCR'd library of marine-engine manuals (the manuals themselves aren't
-    in this repo).
+  - Manual pages come from data/catalog.json, exported from an OCR'd library
+    of marine-engine manuals; part numbers come from GM Diesel's 1953 Series 71
+    owners parts book (the manuals themselves aren't in this repo).
   - Sources are String /v1/search results for the part, cached so a demo
     never waits on the same search twice (refresh=True re-runs it).
   - check_listing() pulls price/stock from one vendor page with String's
@@ -84,7 +84,7 @@ def sources(part_id: str, refresh: bool = False) -> dict:
     if part_id in cache and not refresh:
         return cache[part_id]
     numbers = PART_IDS[part_id]["part_numbers"]
-    query = " ".join(["Detroit Diesel 6-71", SEARCH_TERMS[part_id], *numbers[:1], "for sale"])
+    query = " ".join(["Detroit Diesel 6-71", SEARCH_TERMS[part_id], *[n["pn"] for n in numbers[:1]], "for sale"])
     t = time.time()
     results = string_search(query)[:SOURCES_SHOWN]
     entry = {

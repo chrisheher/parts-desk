@@ -413,7 +413,7 @@
       <h2>${esc(p.name)}</h2>
       <p class="about">${esc(p.about)}</p>
       <div class="chips">
-        ${p.part_numbers.map(n => `<span class="chip pn">P/N ${esc(n)} · from manual</span>`).join('')}
+        ${p.part_numbers.map(n => `<span class="chip pn" title="Series 71 parts book, p.${n.page}">P/N ${esc(n.pn)} · ${esc(n.desc)}</span>`).join('')}
         <span class="chip">${p.pages.length} manual pages</span>
       </div>
       <section>

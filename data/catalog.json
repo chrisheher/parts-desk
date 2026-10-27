@@ -30,7 +30,18 @@
     "dd": false
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5172141",
+    "desc": "Thermostat assy.",
+    "page": 57
+   },
+   {
+    "pn": "5167761",
+    "desc": "Gasket, thermostat housing",
+    "page": 57
+   }
+  ]
  },
  {
   "id": "heat_exch",
@@ -63,7 +74,18 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "8509553",
+    "desc": "Core, heat exchanger",
+    "page": 60
+   },
+   {
+    "pn": "5192637",
+    "desc": "Gasket kit, heat exchanger overhaul",
+    "page": 60
+   }
+  ]
  },
  {
   "id": "oil_cooler",
@@ -96,7 +118,18 @@
     "dd": false
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "8501328",
+    "desc": "Core assy., oil cooler (6 plate)",
+    "page": 51
+   },
+   {
+    "pn": "8501329",
+    "desc": "Core assy., oil cooler (8 plate)",
+    "page": 51
+   }
+  ]
  },
  {
   "id": "oil_filter",
@@ -129,7 +162,18 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5573014",
+    "desc": "Element, oil filter (full flow, PF-132)",
+    "page": 50
+   },
+   {
+    "pn": "5572425",
+    "desc": "Element, oil filter (by-pass, P-117)",
+    "page": 50
+   }
+  ]
  },
  {
   "id": "injector",
@@ -163,7 +207,21 @@
    }
   ],
   "part_numbers": [
-   "5226414"
+   {
+    "pn": "5228310",
+    "desc": "Injector assy. (HV6)",
+    "page": 24
+   },
+   {
+    "pn": "5228305",
+    "desc": "Injector assy. (HV7)",
+    "page": 24
+   },
+   {
+    "pn": "5193221",
+    "desc": "Overhaul kit, injector",
+    "page": 24
+   }
   ]
  },
  {
@@ -197,7 +255,18 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5193118",
+    "desc": "Gasket kit, cylinder head (6 cyl.)",
+    "page": 11
+   },
+   {
+    "pn": "5193634",
+    "desc": "Head assy., cylinder, complete (6 cyl.)",
+    "page": 11
+   }
+  ]
  },
  {
   "id": "liner",
@@ -230,7 +299,23 @@
     "dd": false
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5186590",
+    "desc": "Liner, cylinder (standard)",
+    "page": 19
+   },
+   {
+    "pn": "5193609",
+    "desc": "Cylinder kit: liner, piston, pin, rings",
+    "page": 19
+   },
+   {
+    "pn": "5183330",
+    "desc": "Gasket, cylinder liner compression",
+    "page": 11
+   }
+  ]
  },
  {
   "id": "alternator",
@@ -329,7 +414,23 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5157393",
+    "desc": "Blower assy. (A eng., 6 cyl.)",
+    "page": 43
+   },
+   {
+    "pn": "5157396",
+    "desc": "Blower assy. (C eng., 6 cyl.)",
+    "page": 43
+   },
+   {
+    "pn": "5192796",
+    "desc": "Blower kit, repair",
+    "page": 43
+   }
+  ]
  },
  {
   "id": "governor",
@@ -362,7 +463,18 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5182567",
+    "desc": "Governor assy., limiting speed (A eng., 6 cyl.)",
+    "page": 29
+   },
+   {
+    "pn": "5182568",
+    "desc": "Governor assy., limiting speed (C eng., 6 cyl.)",
+    "page": 29
+   }
+  ]
  },
  {
   "id": "fuel_pump",
@@ -395,7 +507,18 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5184531",
+    "desc": "Pump assy., fuel (LA-LB-RA-RB eng.)",
+    "page": 26
+   },
+   {
+    "pn": "5184532",
+    "desc": "Pump assy., fuel (LC-LD-RC-RD eng.)",
+    "page": 26
+   }
+  ]
  },
  {
   "id": "fuel_filter",
@@ -428,7 +551,18 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5192854",
+    "desc": "Element, fuel strainer (6\")",
+    "page": 27
+   },
+   {
+    "pn": "5178982",
+    "desc": "Element, fuel filter (4\")",
+    "page": 27
+   }
+  ]
  },
  {
   "id": "water_pump",
@@ -461,7 +595,23 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5159059",
+    "desc": "Pump assy., fresh water (A eng.)",
+    "page": 55
+   },
+   {
+    "pn": "5159060",
+    "desc": "Pump assy., fresh water (C eng.)",
+    "page": 55
+   },
+   {
+    "pn": "5193239",
+    "desc": "Replacement kit, water pump seal",
+    "page": 56
+   }
+  ]
  },
  {
   "id": "raw_water",
@@ -494,7 +644,13 @@
     "dd": false
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5186250",
+    "desc": "Pump assy., raw water",
+    "page": 61
+   }
+  ]
  },
  {
   "id": "exh_valve",
@@ -527,6 +683,22 @@
     "dd": true
    }
   ],
-  "part_numbers": []
+  "part_numbers": [
+   {
+    "pn": "5193197",
+    "desc": "Valve, exhaust (plain)",
+    "page": 23
+   },
+   {
+    "pn": "5178590",
+    "desc": "Guide, exhaust valve (standard)",
+    "page": 23
+   },
+   {
+    "pn": "5150289",
+    "desc": "Spring, exhaust valve",
+    "page": 23
+   }
+  ]
  }
 ]
