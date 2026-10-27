@@ -1,0 +1,194 @@
+{
+ "oil_cooler": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 84,
+  "caption": "Figure 7\u2014Oil Cooler Assembly",
+  "src": "figs/oil_cooler.png",
+  "box": [
+   0.1327,
+   0.0552,
+   0.5247,
+   0.5085
+  ]
+ },
+ "oil_filter": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 84,
+  "caption": "Figure 8\u2014Oil Cooler, Filter, Strainer, and By-Pass Valve Mounting Bracket",
+  "src": "figs/oil_filter.png",
+  "box": [
+   0.5147,
+   0.0745,
+   0.9298,
+   0.3848
+  ]
+ },
+ "injector": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 122,
+  "caption": "Figure 5\u2014Fuel Injector Assembly",
+  "src": "figs/injector.png",
+  "box": [
+   0.0594,
+   0.2145,
+   0.9198,
+   0.8927
+  ]
+ },
+ "head_gasket": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 56,
+  "caption": "Figure 69\u2014Cylinder Head Assembly",
+  "src": "figs/head_gasket.png",
+  "box": [
+   0.0795,
+   0.0848,
+   0.9298,
+   0.6345
+  ]
+ },
+ "blower": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 113,
+  "caption": "Figure 24\u2014Diagram of Blower Clearances",
+  "src": "figs/blower.png",
+  "box": [
+   0.0594,
+   0.08,
+   0.9498,
+   0.56
+  ]
+ },
+ "governor": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 157,
+  "caption": "Figure 50\u2014Limiting Speed Governor Mounting",
+  "src": "figs/governor.png",
+  "box": [
+   0.5147,
+   0.0648,
+   0.9298,
+   0.3848
+  ]
+ },
+ "fuel_pump": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 142,
+  "caption": "Figure 27\u2014Fuel Pump Mounting",
+  "src": "figs/fuel_pump.png",
+  "box": [
+   0.135,
+   0.0552,
+   0.5247,
+   0.3582
+  ]
+ },
+ "water_pump": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 94,
+  "caption": "Figure 2\u2014Water Pump Assembly",
+  "src": "figs/water_pump.png",
+  "box": [
+   0.1327,
+   0.057,
+   0.5247,
+   0.5388
+  ]
+ },
+ "exh_valve": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 57,
+  "caption": "Figure 70\u2014Exhaust Valves and Guides",
+  "src": "figs/exh_valve.png",
+  "box": [
+   0.1227,
+   0.4576,
+   0.5147,
+   0.8667
+  ]
+ },
+ "thermostat": {
+  "pdf": "raw_water_system.pdf",
+  "page": 1,
+  "caption": "Figure 6-3. Thermostat housing (on a Volvo MD17C)",
+  "src": "figs/thermostat.png",
+  "box": [
+   0.5249,
+   0.0549,
+   0.8646,
+   0.3846
+  ]
+ },
+ "starter": {
+  "pdf": "engine_troubleshooting.pdf",
+  "page": 10,
+  "caption": "Figure 7-24A. A typical pre-engaged starter motor",
+  "src": "figs/starter.png",
+  "box": [
+   0.6144,
+   0.5849,
+   0.9343,
+   0.8547
+  ]
+ },
+ "alternator": {
+  "pdf": "alternator_maintenance.pdf",
+  "page": 5,
+  "caption": "Fig. 6-1. Seven common alternator backs, showing wiring connections",
+  "src": "figs/alternator.png",
+  "box": [
+   0.3998,
+   0.2845,
+   0.9446,
+   0.7698
+  ]
+ },
+ "fuel_filter": {
+  "pdf": "fuel_system.pdf",
+  "page": 2,
+  "caption": "Figure 9-8A. A primary fuel filter with a replaceable element",
+  "src": "figs/fuel_filter.png",
+  "box": [
+   0.6144,
+   0.5299,
+   0.9549,
+   0.8645
+  ]
+ },
+ "raw_water": {
+  "pdf": "engine_troubleshooting.pdf",
+  "page": 17,
+  "caption": "Figure 5-2. Flexible impeller secured to the shaft by a set screw",
+  "src": "figs/raw_water.png",
+  "box": [
+   0.0546,
+   0.0678,
+   0.4394,
+   0.2344
+  ]
+ },
+ "liner": {
+  "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf",
+  "page": 16,
+  "caption": "Figure 8\u2014Cylinder Liner, Insert, and Gasket Mounting in Block",
+  "src": "figs/liner.png",
+  "box": [
+   0.0795,
+   0.3097,
+   0.5424,
+   0.6279
+  ]
+ },
+ "heat_exch": {
+  "pdf": "DETROIT_DIESEL_TUNE-UP_TROUBLESHOOTING_MTCE.pdf",
+  "page": 261,
+  "caption": "Items 6 and 7\u2014Heat exchanger drain and zinc electrode (GM Diesel V-71)",
+  "src": "figs/heat_exch.png",
+  "box": [
+   0.0548,
+   0.5717,
+   0.3948,
+   0.8894
+  ]
+ }
+}
