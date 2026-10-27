@@ -9,37 +9,43 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 193,
     "excerpt": "nt Level too Low-Fill radiator to filler neck, 2. Hoses Collapsed or Disintegrated\u2014Replace hoses. 3. , 4, 5. Thermostat Damaged\u2014Replace thermostat. . Water Pump Impeller Loose on Shaft\u2014Replace impeller and pin to shaft",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 93,
     "excerpt": "DIESEL ENGINE MANUAL Page 89 Cosling Sysiem Control of engine temperature is accomplished by means of a thermostat directing the flow of cooling liquid within a sealed cooling system. A sealed sys- tem utilizes a pres",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "raw water system",
     "page": 1,
     "excerpt": "re it has been inside the screw housing\u2014the bands are prone to failure from crevice corrosion at this point. Thermostats. Thermostats are generally very reli- able, but occasionally do fail, normally in the closed posit",
-    "dd": false
+    "dd": false,
+    "pdf": "raw_water_system.pdf"
    },
    {
     "title": "raw water system",
     "page": 2,
     "excerpt": "re it has been inside the screw housing\u2014the bands are prone to failure from crevice corrosion at this point. Thermostats. Thermostats are generally very reli- able, but occasionally do fail, normally in the closed posit",
-    "dd": false
+    "dd": false,
+    "pdf": "raw_water_system.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5172141",
     "desc": "Thermostat assy.",
-    "page": 57
+    "page": 57,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5167761",
     "desc": "Gasket, thermostat housing",
-    "page": 57
+    "page": 57,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -53,37 +59,43 @@
     "title": "engine troubleshooting",
     "page": 16,
     "excerpt": "need to keep a ose eye on the temperature. sig a funnel well above the engine and slumb a hose from it to the heat exchanger. Fill it from a bucket. The flow rate will be slow because this is gravity fed, but that\u2019s OK b",
-    "dd": false
+    "dd": false,
+    "pdf": "engine_troubleshooting.pdf"
    },
    {
     "title": "raw water system",
     "page": 6,
     "excerpt": "d Other Problems screen, or in the water intake. Check the raw-water filter. If you find a lot of silt, the heat exchanger (or engine itself on raw-water cooled boats) may be silted up. Feel the freshwater inlet and ou",
-    "dd": false
+    "dd": false,
+    "pdf": "raw_water_system.pdf"
    },
    {
     "title": "ddgov",
     "page": 21,
     "excerpt": "rankshaft. Pulley 5.4000A. Fan 1.3000D Crankshaft Pulley Beit 5.4000B Fan Shroud 1.4000A |. Flywheel 5.5000A. Heat Exchanger or Keel Cooling 1.5000A.. Flywheel Housing 5.6000A Raw Water Pump 1,5000B | Flywheel Housing Ad",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "ddgov",
     "page": 32,
     "excerpt": "DETROIT DIESEL GASKET HEAT EXCHANGER AIR SHUT-DOWN SHUT-DOWN AIR SHUT-DOWN HOUSING BLOWER GASKET SCREEN ~~ AIR SHUT-DOWN HOUSING wT Built-In Parts Book FLANGE DRAINCOCK PIN ro WASHER / SEAL RING / / SHAFT 7",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "8509553",
     "desc": "Core, heat exchanger",
-    "page": 60
+    "page": 60,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5192637",
     "desc": "Gasket kit, heat exchanger overhaul",
-    "page": 60
+    "page": 60,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -97,37 +109,43 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 85,
     "excerpt": "DIESEL ENGINE MANUAL Page 81 Above operations are necessary to remove oil cooler element; if combination adapter, strainer, and filter are to be removed, then continue as follows: 6. Remove filter and strainer. Remove",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 84,
     "excerpt": "Page 80 DIESEL ENGINE MANUAL Ol. COOLER ENGINE CYLINDER BLOCK TeM-2838 -1 Figure 7\u2014Oil Cooler Assembly Should the cooler element become clogged, a by-pass valve located in the cooler adapter, by- passes oil around",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 34,
     "excerpt": "DETROIT DIESEL BY-PASS VALVE GASKET GASKET GASKET SPACER OIL COOLER ADAPTOR GASKET PLATE OiL COOLER HOUSING DRAIN COCK OIL COOLER CORE TWIN PLATE OIL COOLER GASKET: $ SPRING SPACER *\u00a2o \u201cme: = GASKET OlL COO",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "oil systems",
     "page": 8,
     "excerpt": "engine creates the need for a major rebuild. At this time, the oil pump should always be checked. A clogged oil cooler will reduce oil pressure. Clogging can arise from long hours of low load running and idling (which",
-    "dd": false
+    "dd": false,
+    "pdf": "oil_systems.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "8501328",
     "desc": "Core assy., oil cooler (6 plate)",
-    "page": 51
+    "page": 51,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "8501329",
     "desc": "Core assy., oil cooler (8 plate)",
-    "page": 51
+    "page": 51,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -141,37 +159,43 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 83,
     "excerpt": "allowed to drop below \u201cLow\u201d mark, and no advantage is gained by having oil above \u201cFULL\u201d mark. Dipstick is ac- OIL FILTERS AND STRAINERS: cessible at rear of cab as illustrated in figure 6. Daily, or oftener if necessa",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 23,
     "excerpt": "Lines Instruments Oil Filler Tube or Cap Air Inlet Housing Tach. Drive Oil Cooler Alarm or Shutoff Radiator Oil Filter Overspeed Governor Heat Ex. or Keel Cooting Oil Lines Throttle Controls Raw Water Pump Injector",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 76,
     "excerpt": "oler 200 ee 79 Engine Oil Recommendations ................. 78 Lubricating Oil Pump ....................... 82 Oil Filters and Strainers ...................... 79 Oil Pressure Regulator Valve .................. 87 CIRCU",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 21,
     "excerpt": "il. Distribution System 12.2000A Bilge Pump -4,1000C -. Oil Pressure Regulator : 12:3000A Vacuum Pump -4,2000A Oil Filter \u2014 12.4000A Air Compressor 4.3000A \u00b0\u00b0. Oil Filter Lines 12.5000A Hydraulic Pump 4,.4000A Oil Cooler",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5573014",
     "desc": "Element, oil filter (full flow, PF-132)",
-    "page": 50
+    "page": 50,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5572425",
     "desc": "Element, oil filter (by-pass, P-117)",
-    "page": 50
+    "page": 50,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -185,42 +209,49 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 125,
     "excerpt": "DIESEL ENGINE MANUAL Page 121 pression in combustion chamber, efficient operation demands that all injector parts be maintained in clean, first-class condition at all times. This will ne- cessitate the use of only clea",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 137,
     "excerpt": "DIESEL ENGINE MANUAL Page 133 2. If the injector passes these tests, it is satisfactory for further use. However, failure to pass any one of the tests indicates that defective or dirty parts have been assembled. In thi",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "engine timing",
     "page": 8,
     "excerpt": "the proper rack adjustment, hold the speed control lever in the maximum speed position and press down on the injector rack with a screwdriver or finger tip and note the \u201crotating\u201d movement of the injector control rack w",
-    "dd": true
+    "dd": true,
+    "pdf": "engine_timing.pdf"
    },
    {
     "title": "engine timing",
     "page": 7,
     "excerpt": "nd the control tube lever. 11. Use a new gasket and install the governor cover and lever assembly. Position Injector Rack Control Levers The position of the injector racks must be correctly set in relation to the gove",
-    "dd": true
+    "dd": true,
+    "pdf": "engine_timing.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5228310",
     "desc": "Injector assy. (HV6)",
-    "page": 24
+    "page": 24,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5228305",
     "desc": "Injector assy. (HV7)",
-    "page": 24
+    "page": 24,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5193221",
     "desc": "Overhaul kit, injector",
-    "page": 24
+    "page": 24,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -234,37 +265,43 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 59,
     "excerpt": "hen exposed to atmosphere. INSPECTION The information described under the following headings pertain to the cylinder head after it has been removed from the engine, disassembled and thoroughly cleaned. WARPAGE (FLATNE",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 58,
     "excerpt": "Page 54 DIESEL ENGINE MANUAL CYLINDER HEAD 1 Water Seal Ring - Large 2 Oil Seal Ring 3 Water Seal Ring - Small 4 Oil and Water Seal Ring 5 Cylinder Block 6 Liner Insert Compression Gasket mass Figure 72\u2014Cylinder C",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 9,
     "excerpt": "ve rocker covers. Discard the gaskets. 3, Check the valve clearance. The clearance should be 009\u201d (two valve cylinder head) or 014\u201d (four valve cylinder head). 4. Start the engine and hold an injector follower down wit",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "detroit diesel injector governor",
     "page": 2,
     "excerpt": "heck valve on the mounting pad. Secondary - located in series between the gear pump and the inlet port in the cylinder head fuel manifold. Current secondary filters are disposable, spin-on filter cartridges, which entrap",
-    "dd": true
+    "dd": true,
+    "pdf": "detroit_diesel_injector_governor.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5193118",
     "desc": "Gasket kit, cylinder head (6 cyl.)",
-    "page": 11
+    "page": 11,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5193634",
     "desc": "Head assy., cylinder, complete (6 cyl.)",
-    "page": 11
+    "page": 11,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -278,42 +315,49 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 20,
     "excerpt": "Page 16 CYLINDER LINERS Figure 13\u2014Checking Depth of Liner Below Top of Block FINISH HONING AND FITTING LINER Rough hone cylinder bore until the liner can be pushed from 3\u201d to 4\u201d into the bore, or until bore is within",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 17,
     "excerpt": "DIESEL ENGINE MANUAL 1%,\" with four-valve heads, others measure .703\u201d (approx. #5/,,\u201d). Refer to figure 9. LINER MAINTENANCE Cylinder liners will render satisfactory service for extended periods if the engine has pro",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "diesel overview",
     "page": 3,
     "excerpt": "Rocker arm Valve spring Valve guide Valve Piston ring \u00bb Piston pin Main bearing Connecting rod Crank end bearing Connecting rod cap Crankcase SY Main bearing cap SS SAY Figure 1-8. Principal components in a diesel",
-    "dd": false
+    "dd": false,
+    "pdf": "diesel_overview.pdf"
    },
    {
     "title": "fuel system",
     "page": 4,
     "excerpt": "Rocker arm Injector Valve spring Push rod Valve guide Valve Piston ring Piston pin Figure 1-8. Principal components in a diesel engine. with an intermediate gear, a belt, or a chain so that they rotate together (see F",
-    "dd": false
+    "dd": false,
+    "pdf": "fuel_system.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5186590",
     "desc": "Liner, cylinder (standard)",
-    "page": 19
+    "page": 19,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5193609",
     "desc": "Cylinder kit: liner, piston, pin, rings",
-    "page": 19
+    "page": 19,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5183330",
     "desc": "Gasket, cylinder liner compression",
-    "page": 11
+    "page": 11,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -327,25 +371,29 @@
     "title": "alternator maintenance",
     "page": 6,
     "excerpt": "al- ternator\u2019s output and the needs of your batteries. The voltage regulator also controls the output of the alternator so that it doesn\u2019t overcharge your batteries. Alternators work on the principle of induction (disc",
-    "dd": false
+    "dd": false,
+    "pdf": "alternator_maintenance.pdf"
    },
    {
     "title": "engine troubleshooting",
     "page": 9,
     "excerpt": "Troubleshooting Chart 3-3. Battery/Alternator/Regulator Problems: No Alternator Output Symptoms: Ignition warning light stays on, battery remains discharged. Is the drive belt loose or broken? wm\u201d Tighten or replace.",
-    "dd": false
+    "dd": false,
+    "pdf": "engine_troubleshooting.pdf"
    },
    {
     "title": "alternator maintenance",
     "page": 2,
     "excerpt": "er- charging may be an improperly adjusted volt- : age regulator, but most likely it is the result of Battery/Alternator/Regulator Problems: Undercharging voltage drop in the circuit caused either by | Symptom: Battery n",
-    "dd": false
+    "dd": false,
+    "pdf": "alternator_maintenance.pdf"
    },
    {
     "title": "ddgov",
     "page": 13,
     "excerpt": "be made to assist in localizing the cause: 1. A fully charged battery and low charging rate indicates normal alternator-regulator operation. 2. A low battery and high charging rate indicates normal alternator-regulator",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": []
@@ -360,25 +408,29 @@
     "title": "starter motor",
     "page": 12,
     "excerpt": "Starter Motor Solenoid Circuit Breaker Starter Slave Solenoid 90 Amp Fuse Fig. 8-2. Typical MerCruiser starter-motor circuit diagram. weakened by a sticking bilge-pump float switch or a light left on while the boat",
-    "dd": false
+    "dd": false,
+    "pdf": "starter_motor.pdf"
    },
    {
     "title": "starter motor",
     "page": 8,
     "excerpt": "electromagnet pushes the contactor up against spring tension, completing the circuit from the battery to the starter motor. FIGURE 7-22E. A cutaway of a typical solenoid. (Detroit Diesel) 316 points. push-button ign",
-    "dd": false
+    "dd": false,
+    "pdf": "starter_motor.pdf"
    },
    {
     "title": "engine troubleshooting",
     "page": 10,
     "excerpt": "jumper wire or screwdriver blade, bridge the battery and ignition switch ter- minals on the solenoid. If the starter motor now cranks, the ignition circuit is defective. Starting Circuit Problems: Engine Fails to Crank",
-    "dd": false
+    "dd": false,
+    "pdf": "engine_troubleshooting.pdf"
    },
    {
     "title": "ddgov",
     "page": 21,
     "excerpt": "Cover . 7.0000 ELECTRICAL-INSTRUMENTS 7.1000A Battery Charging Generator 7.2000B Automatic Starting 7.3000A Starting Motor. 2.0000 FUEL SYSTEM 7.4000A = Instruments biota Fuel Injector. 7.4000B Tachometer Drive \u2018 eate",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": []
@@ -393,42 +445,49 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 105,
     "excerpt": "DIESEL ENGINE MANUAL Page 101 at some point or perhaps allow rotor assemblies to rub blower housing. This condition will usually show up at end of rotors at which bearing has failed. 2. Excessive backlash in blower ti",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 104,
     "excerpt": "Page 100 DIESEL ENGINE MANUAL BLOWER LUBRICATION The blower gears and bearings are lubricated by oil which drains from valve operating mechanism on cylinder head and into camshaft or balance shaft gallery pockets. After",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 12,
     "excerpt": "n and scavenging of the burned gases. Low air box pressure is caused by a high air inlet restriction, damaged blower rotors, an air leak from the air box (such as leaking end plate gaskets), or a clogged blower air inlet",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "ddgov",
     "page": 21,
     "excerpt": "ilencer 9.4000. . Transmission-Highway. \u00a9 3.3000A Air: Inlet Housing 9.7000. Transmission-Off-highway 3.4000. Blower\u00ae \u00a9\u201d - -- 3.4000A\u00b0 Blower Drive Shaft. 10,0000 SHEET METAL 3,5000A. \u2018Turbocharger 10,1000A Engine Hood",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5157393",
     "desc": "Blower assy. (A eng., 6 cyl.)",
-    "page": 43
+    "page": 43,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5157396",
     "desc": "Blower assy. (C eng., 6 cyl.)",
-    "page": 43
+    "page": 43,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5192796",
     "desc": "Blower kit, repair",
-    "page": 43
+    "page": 43,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -442,37 +501,43 @@
     "title": "ddgov",
     "page": 7,
     "excerpt": "able to operate the unit with a very low output shaft speed. This speed could be so low that the output shaft governor ball head assembly would not actuate the governor pilot valve and spring seat assembly. In such appli",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "ddgov",
     "page": 4,
     "excerpt": "Engine Tune-Up DETROIT DIESEL The centrifugal force of the revolving output shaft governor flyweights is converted into linear motion which is transmitted through a riser, thrust bearing, operating fork, and rocker sha",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 156,
     "excerpt": "Page 152 DIESEL ENGINE MANUAL LIMITING SPEED GOVERNOR No.7\u2014IDLE SPEED AND BUFFER SCREW SETTING Adjustment No.7 | With engine running at idle speed, observe engine RPM at tachometer, then loosen locknut (42) and thre",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "detroit diesel injector governor",
     "page": 5,
     "excerpt": "Injector to Governor Linkages The output of the unit injectors is governor controlled by means of a set of linkage. Governor control rods extend from the governor housing and connect to a control tube lever by means of a",
-    "dd": true
+    "dd": true,
+    "pdf": "detroit_diesel_injector_governor.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5182567",
     "desc": "Governor assy., limiting speed (A eng., 6 cyl.)",
-    "page": 29
+    "page": 29,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5182568",
     "desc": "Governor assy., limiting speed (C eng., 6 cyl.)",
-    "page": 29
+    "page": 29,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -486,37 +551,43 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 116,
     "excerpt": "with washer lugs en- gaging slots in gear hub and lock washer ears engag- ing washer and cap screws. Install Fuel Pump Coupling Install locking plate and fuel pump coupling dise on retaining bolt with tangs of disc eng",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 189,
     "excerpt": "Oil Specifications.\u201d RESTRICTED FITTING MISSING FROM RETURN MANIFOLD-Install new restricted fitting. FAULTY FUEL PUMP RELIEF VALVE NOT SEATING\u2014Make \u201cFuel Pressure Test\u201d and clean and inspect valve and seat assembly,",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 21,
     "excerpt": "rting Motor. 2.0000 FUEL SYSTEM 7.4000A = Instruments biota Fuel Injector. 7.4000B Tachometer Drive \u2018 eateg \"Fuel Pump ; 7.4000C Shut-off or Alarm System -2000A . Fuel Pump Drain 7.5000A . Power Generator 2,3000A.. Fuel",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "dd671 specs",
     "page": 1,
     "excerpt": "min. at no load: (COBO. Ori fie) 7.2. 22S yan enerncennernorniteadiegenenronenndta Sussnniel ceil 0.9 0.9 0.9 Fuel pump suction at pump inlet (inches mercury) - max.: Clean system .............. TiS ST . 6.0 6.0 6.0 Dirt",
-    "dd": true
+    "dd": true,
+    "pdf": "dd671 specs.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5184531",
     "desc": "Pump assy., fuel (LA-LB-RA-RB eng.)",
-    "page": 26
+    "page": 26,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5184532",
     "desc": "Pump assy., fuel (LC-LD-RC-RD eng.)",
-    "page": 26
+    "page": 26,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -530,37 +601,43 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 83,
     "excerpt": "elow \u201cLow\u201d mark, and no advantage is gained by having oil above \u201cFULL\u201d mark. Dipstick is ac- OIL FILTERS AND STRAINERS: cessible at rear of cab as illustrated in figure 6. Daily, or oftener if necessary, check level wi",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 84,
     "excerpt": "rectly to the oil gallery in the cylinder block. Refer to figure 8 for method of mounting cooler, filter, and strainer adapter, and by-pass valve for coach engines. If occasion requires, the cooling unit may be re- move",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 15,
     "excerpt": "Storage (LF 4089), Mobil 4Y17, or equivalent, to enable the engine to operate 10 minutes. 12. Drain the fuel filter and strainer. Remove the retaining bolts, shells and elements. Discard the used elements and gaskets.",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "ddgov",
     "page": 23,
     "excerpt": "Converter Lines Oi! Pump | Blower Muffler & Conn. Oi! Distribution Blower Drive Shaft Engine Hood Dipstick Fuel Filter Wiring Harness Oil Pan Drain Tube Fuel Lines Instruments Oil Filler Tube or Cap Air Inlet Housin",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5192854",
     "desc": "Element, fuel strainer (6\")",
-    "page": 27
+    "page": 27,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5178982",
     "desc": "Element, fuel filter (4\")",
-    "page": 27
+    "page": 27,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -574,42 +651,49 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 93,
     "excerpt": "ter informa- tion; also for information regarding other cooling sys- tem units as used on specific vehicles. WATER PUMP DESCRIPTION A centrifugal type water pump (fig. 2) is used for circulating the cooling liquid thr",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 94,
     "excerpt": "Page 90 DIESEL ENGINE MANUAL WATER PUMP 1 Coupling and Slinger Assembly 2 Shaft and Bearing Assembly 3 Shaft Slinger 4 Body Insert 5 Body Assembly 6 Impeller 1 Body Stud 8 Seal Assembly 9 Impeller Pin TPM-2357",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "ddgov",
     "page": 21,
     "excerpt": "GROUP NOMENCLATURE 1.0000 ENGINE (less. major assemblies) 5.0000 COOLING SYSTEM 1,1000 Cylinder Block 5.1000 Fresh Water Pump 1,1000A\u00b0 Air Box Drains 5,1000A Fresh Water Pump Cover 1,2000 Cylinder Head 5.2000A Water Out",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    },
    {
     "title": "ddgov",
     "page": 23,
     "excerpt": "ankshaft Cover Balance Wet. Cover Fan Crankshaft Pulley Crankshaft Pulley Belt Fan Shroud Water Connections Water Pump Cover Water Manifold Qil Pan Injector Torque Converter Lines Oi! Pump | Blower Muffler & Conn. Oi",
-    "dd": true
+    "dd": true,
+    "pdf": "ddgov.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5159059",
     "desc": "Pump assy., fresh water (A eng.)",
-    "page": 55
+    "page": 55,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5159060",
     "desc": "Pump assy., fresh water (C eng.)",
-    "page": 55
+    "page": 55,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5193239",
     "desc": "Replacement kit, water pump seal",
-    "page": 56
+    "page": 56,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -623,32 +707,37 @@
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 96,
     "excerpt": "ition seal assembly over bearing shaft and slinger. Install spring over seal, with large end of spring toward impeller. 4, With pump set in press so it is supported on the outer end of pump shaft, press impeller onto pu",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "engine troubleshooting",
     "page": 16,
     "excerpt": "al. I know a couple of people who got themselves out of a tight spot in this manner. Freshwater side. If the raw-water circuit is func- tioning as normal and the engine is freshwater cooled, check the level in the coola",
-    "dd": false
+    "dd": false,
+    "pdf": "engine_troubleshooting.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 94,
     "excerpt": "upling and Slinger Assembly 2 Shaft and Bearing Assembly 3 Shaft Slinger 4 Body Insert 5 Body Assembly 6 Impeller 1 Body Stud 8 Seal Assembly 9 Impeller Pin TPM-2357 Figure 2--Water Pump Assembly 1 Oil Cooler 2",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    },
    {
     "title": "raw water system",
     "page": 6,
     "excerpt": "hooting, Part Two: Overheating, Smoke, Knocks, and Other Problems screen, or in the water intake. Check the raw-water filter. If you find a lot of silt, the heat exchanger (or engine itself on raw-water cooled boats) m",
-    "dd": false
+    "dd": false,
+    "pdf": "raw_water_system.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5186250",
     "desc": "Pump assy., raw water",
-    "page": 61
+    "page": 61,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  },
@@ -662,42 +751,49 @@
     "title": "engine timing",
     "page": 1,
     "excerpt": "DETROIT DIESEL 71 (Vehicle) 14.1 EXHAUST VALVE CLEARANCE ADJUSTMENT The correct exhaust valve clearance at normal engine operating temperature is important for smooth, efficient operation of the engine. Insufficient",
-    "dd": true
+    "dd": true,
+    "pdf": "engine_timing.pdf"
    },
    {
     "title": "engine timing",
     "page": 2,
     "excerpt": "14.1 Exhaust Valve Clearance Adjustment freely between the end of the valve stem and the rocker arm and the .010\u201d feeler gage will not pass through.- Readjust the push rod, if necessary. 2. After the exhaust valve clea",
-    "dd": true
+    "dd": true,
+    "pdf": "engine_timing.pdf"
    },
    {
     "title": "detroit diesel injector governor",
     "page": 6,
     "excerpt": "injury. The technician should also ensure that the racks are capable of full fueling the engine 1. Adjust the exhaust valve clearance cold. 2. Time the fuel injectors. 3. Adjust the governor gap. 4 Position the injector",
-    "dd": true
+    "dd": true,
+    "pdf": "detroit_diesel_injector_governor.pdf"
    },
    {
     "title": "Detroit Diesel Engine Series 71 Service Manual",
     "page": 174,
     "excerpt": "TUNE-UP PROCEDURES To completely tune-up an engine, all adjustments except bridge balancing adjustment and exhaust valve cold setting must be performed only after engine has reached its normal operating temperature.",
-    "dd": true
+    "dd": true,
+    "pdf": "Detroit Diesel Engine Series 71 Service Manual.pdf"
    }
   ],
   "part_numbers": [
    {
     "pn": "5193197",
     "desc": "Valve, exhaust (plain)",
-    "page": 23
+    "page": 23,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5178590",
     "desc": "Guide, exhaust valve (standard)",
-    "page": 23
+    "page": 23,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    },
    {
     "pn": "5150289",
     "desc": "Spring, exhaust valve",
-    "page": 23
+    "page": 23,
+    "pdf": "DETROIT_71_SERIES_ENGINES_3CYL_4CYL_6CYL_PARTS.pdf"
    }
   ]
  }

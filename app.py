@@ -6,7 +6,7 @@
 
 import os
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, send_from_directory
 
 import parts_desk
 
@@ -30,6 +30,12 @@ def _string_error(what: str, e: Exception):
 @app.route("/")
 def parts_page():
     return render_template("parts.html", string_enabled=bool(parts_desk.api_key()))
+
+
+@app.route("/pdfs/<name>")
+def cited_page(name):
+    # Vercel serves public/pdfs from its CDN; this covers running locally.
+    return send_from_directory("public/pdfs", name)
 
 
 @app.route("/api/parts", methods=["GET"])

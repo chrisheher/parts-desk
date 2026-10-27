@@ -14,7 +14,7 @@ Click a part on the engine diagram to see:
   the same time, so you can see which vendor sites block an ordinary scraper.
 
 The manual data comes from a GraphRAG project over OCR'd nautical PDFs. Only the
-excerpts, part numbers and figure crops are included here, not the manuals.
+pages the desk cites are included here, each as a one-page PDF, not the full manuals.
 
 ## Run locally
 
@@ -34,5 +34,6 @@ venv/bin/python app.py      # http://localhost:5001
 | `data/parts_sources.json` | Cached String search results, one entry per part |
 | `templates/parts.html` | The page |
 | `public/static/parts/` | Engine photo and figure crops from the manuals |
+| `public/pdfs/` | The cited manual pages, one PDF per page |
 
 Deployed on Vercel; set `STRING_API_KEY` in the project's environment variables.

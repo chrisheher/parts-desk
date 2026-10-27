@@ -212,7 +212,8 @@
     border: 1px solid var(--border);
     color: var(--text);
   }
-  .chip.pn { border-color: var(--accent); color: var(--accent); }
+  .chip.pn { border-color: var(--accent); color: var(--accent); background: none; font-family: inherit; text-align: left; cursor: pointer; }
+  .chip.pn:hover { background: rgba(243,211,138,0.12); }
 
   section + section { margin-top: 22px; }
 
@@ -226,7 +227,9 @@
     border: 1px solid var(--border);
     color: var(--text);
     font: inherit;
+    cursor: pointer;
   }
+  .page-card:hover { border-color: var(--line-dim); }
   .page-card .t { font-size: 0.78rem; margin-bottom: 4px; }
   .page-card .t b { color: var(--accent); font-weight: normal; }
   .page-card .x { font-size: 0.72rem; color: var(--muted); line-height: 1.45; }
@@ -277,6 +280,36 @@
   }
   footer b { color: var(--text); font-weight: normal; }
 
+  .fig-note a { color: inherit; }
+
+  /* PDF modal */
+  .modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 16px;
+  }
+  .modal-box {
+    width: min(1000px, 100%);
+    height: min(90vh, 1100px);
+    background: #020021;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    font-size: 0.8rem;
+  }
+  .modal-head button { background: none; border: none; color: var(--text); font-size: 1rem; cursor: pointer; }
+  .modal iframe { flex: 1; border: none; background: #fff; }
 </style>
 </head>
 <body>
@@ -353,6 +386,23 @@
       `<b>${tally.blockedPlain}</b> blocked for a plain scraper · <b>${tally.prices}</b> prices extracted`;
   }
 
+  // Only the cited pages are hosted, each as a one-page PDF in public/pdfs
+  // (named as when they were extracted: the manual's name, then -p<page>).
+  function pageFile(pdf, page) {
+    const stem = pdf.replace(/\.pdf$/i, '').replace(/[^A-Za-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+    return `${BASE}/pdfs/${stem}-p${page}.pdf`;
+  }
+
+  function openPdf(url, title) {
+    const m = document.createElement('div');
+    m.className = 'modal';
+    m.innerHTML = `<div class="modal-box">
+        <div class="modal-head"><span>${esc(title)}</span><button aria-label="Close">✕</button></div>
+        <iframe src="${esc(url)}"></iframe></div>`;
+    m.addEventListener('click', e => { if (e.target === m || e.target.tagName === 'BUTTON') m.remove(); });
+    document.body.appendChild(m);
+  }
+
   let figures = {};   // part id -> {pdf, page, caption, src}: its figure cropped from the manuals
 
   async function load() {
@@ -393,7 +443,11 @@
     img.src = `${BASE}/static/parts/${fig.src}`;
     img.alt = fig.caption;
     const title = fig.pdf.replace(/\.pdf$/i, '').replace(/_/g, ' ');
-    note.textContent = `${fig.caption} · ${title}, p.${fig.page}`;
+    note.innerHTML = `${esc(fig.caption)} · <a href="#" id="figSource">${esc(title)}, p.${fig.page}</a>`;
+    note.querySelector('#figSource').addEventListener('click', e => {
+      e.preventDefault();
+      openPdf(pageFile(fig.pdf, fig.page), `${title} — p.${fig.page}`);
+    });
   }
 
   function select(id) {
@@ -413,7 +467,7 @@
       <h2>${esc(p.name)}</h2>
       <p class="about">${esc(p.about)}</p>
       <div class="chips">
-        ${p.part_numbers.map(n => `<span class="chip pn" title="Series 71 parts book, p.${n.page}">P/N ${esc(n.pn)} · ${esc(n.desc)}</span>`).join('')}
+        ${p.part_numbers.map((n, i) => `<button class="chip pn" data-i="${i}" title="Series 71 parts book, p.${n.page}">P/N ${esc(n.pn)} · ${esc(n.desc)}</button>`).join('')}
         <span class="chip">${p.pages.length} manual pages</span>
       </div>
       <section>
@@ -428,11 +482,17 @@
         <div id="pages"></div>
       </section>`;
 
+    d.querySelectorAll('.chip.pn').forEach(c => c.addEventListener('click', () => {
+      const n = p.part_numbers[c.dataset.i];
+      openPdf(pageFile(n.pdf, n.page), `Series 71 parts book — p.${n.page}`);
+    }));
+
     const pages = d.querySelector('#pages');
     p.pages.forEach(pg => {
-      const b = document.createElement('div');
+      const b = document.createElement('button');
       b.className = 'page-card';
       b.innerHTML = `<div class="t"><b>p.${pg.page}</b> · ${esc(pg.title)}</div><div class="x">…${esc(pg.excerpt)}…</div>`;
+      b.addEventListener('click', () => openPdf(pageFile(pg.pdf, pg.page), `${pg.title} — p.${pg.page}`));
       pages.appendChild(b);
     });
 
