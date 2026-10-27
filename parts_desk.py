@@ -44,6 +44,10 @@ SEARCH_TERMS = {
     "exh_valve": "exhaust valve",
 }
 
+# Parts whose 1953 numbers have since been superseded: searching by number finds
+# other engines' parts, so these search by name only.
+SEARCH_BY_NAME = {"oil_cooler", "oil_filter", "liner", "blower", "fuel_pump"}
+
 PART_IDS = {p["id"]: p for p in CATALOG}
 _sources_lock = threading.Lock()
 
@@ -84,7 +88,7 @@ def sources(part_id: str, refresh: bool = False) -> dict:
     if part_id in cache and not refresh:
         return cache[part_id]
     numbers = PART_IDS[part_id]["part_numbers"]
-    query = " ".join(["Detroit Diesel 6-71", SEARCH_TERMS[part_id], *[n["pn"] for n in numbers[:1]], "for sale"])
+    query = " ".join(["Detroit Diesel 6-71", SEARCH_TERMS[part_id], *[n["pn"] for n in numbers[:1] if part_id not in SEARCH_BY_NAME], "for sale"])
     t = time.time()
     results = string_search(query)[:SOURCES_SHOWN]
     entry = {
