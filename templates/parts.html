@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>6-71 Parts Desk</title>
-<script>const BASE = ""; const STRING_ENABLED = {{ 'true' if string_enabled else 'false' }};</script>
+<script>
+  // The page may be served under a sub-path (onlychr.is/raglib/parts proxies here), so every
+  // asset and API URL is built from the address it was loaded at.
+  const BASE = location.pathname.replace(/\/+$/, ''); const STRING_ENABLED = {{ 'true' if string_enabled else 'false' }};</script>
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -294,7 +297,7 @@
       <div class="sheet" data-plate="photo">
         <div class="sheet-head"><span>Full engine diagram</span></div>
         <div class="figure">
-          <img src="/static/parts/marine_671_left_labeled.png" alt="Period photo of a GM 6-71 marine engine, left side, labeling each clickable component">
+          <img id="photoImg" alt="Period photo of a GM 6-71 marine engine, left side, labeling each clickable component">
           <svg class="overlay" viewBox="0 0 910 558" preserveAspectRatio="none" aria-label="Clickable engine parts">
             <g class="part" data-part="heat_exch"><polygon class="hot" points="135,160 205,160 205,215 135,215"/><g class="photo-badge"><circle cx="154" cy="179" r="11"/><text x="154" y="179">2</text></g></g>
             <g class="part" data-part="thermostat"><polygon class="hot" points="212,140 252,140 252,178 212,178"/><g class="photo-badge"><circle cx="236" cy="172" r="11"/><text x="236" y="172">1</text></g></g>
@@ -421,7 +424,7 @@
         <div id="sources"></div>
       </section>
       <section>
-        <div class="label" style="font-size:1rem">WHAT YOUR MANUALS SAY</div>
+        <div class="label" style="font-size:1rem">WHAT THE MANUALS SAY</div>
         <div id="pages"></div>
       </section>`;
 
@@ -533,6 +536,7 @@
                       `<span class="plain ${c.plain.blocked ? 'blocked' : ''}">| ${plain}</span>`;
   }
 
+  document.getElementById('photoImg').src = `${BASE}/static/parts/marine_671_left_labeled.png`;
   load();
 </script>
 </body>
